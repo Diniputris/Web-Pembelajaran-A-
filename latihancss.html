@@ -1,16 +1,55 @@
 <html lang="en">
 <head>
-    <style>
-        h1{
-            font-family: Verdana, Geneva, Tahoma, sans-serif;
-            font-style: italic; color:chocolate
-        }
-    </style>
+    <!-- css eksternal -->
+    <link rel="stylesheet" href="styling.css">
 
+    <!-- css internal -->
+    <!-- cara stylingnya langsung panggil nama tag -->
+    <style>
+        *{height: 100%;}
+        h1 {
+
+        }
+        body {background-color: lightblue;
+            display: flex;
+            flex-direction: column;}
+
+        header{font-size: xx-large;
+            background-color: burlywood;
+        }
+        section{background-color: pink;
+            display: flex;
+            widht: 100%;}
+
+        aside{background-color: darkgoldenrod;
+            font-size: 36pt
+            display: flex;
+            widht: 100%;}
+
+        main{background-color: brown;
+            font-style: italic;
+            font-size: x-large;
+            display: flex;}
+
+
+
+        footer{background-color: darkorchid;font-size: larger;}
+    </style>
 
 </head>
 
 <body>
-    <h1>JUDUL</h1>
+    <header>HEADER</header>
+    <main>
+        <aside>SIDEBAR</aside>
+        <section>
+            <br>
+
+            <article>bagian 1</article>
+            <article>bagian 2</article>
+        </section>
+        </main>
+    <footer>FOOTER</footer>
+
 </body>
 </html>
